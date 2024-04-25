@@ -1,0 +1,6 @@
+To use program, use the Makefile with make.
+After the program is made, you can either enter yourself or insert a txt file that consists in this order, a
+number that is you x size of your grid, a number that is your y size of your grid, a number that is your amount
+of steps you want the process to take, and then the grid itself. You can do this by using 
+"mpiexec -n -"# of threads" myocean < filename.txt" .
+
