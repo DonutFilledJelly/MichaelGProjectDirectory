@@ -1,0 +1,21 @@
+START	MOV		R1, #5
+MAIN
+		MOV		R2, #0
+		MOV		R3, #0
+		MOV		R4, #0
+		CMP		R1, R2
+		BGT		SETFOR
+		END
+SETFOR	MOV		R3, #1
+		SUB		R1, R1, #1
+		CMP		R1, R2
+		BGT		Fibonacci
+		END
+Fibonacci	SUB		R1, R1, #1
+		MOV		R5, R4
+		MOV		R4, R3
+		ADD		R3, R4, R5
+		CMP		R1, R2
+		BGT		Fibonacci
+		END
+		

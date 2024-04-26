@@ -1,0 +1,9 @@
+To run this program, make sure to use any c++ compiler, and use g++ -o to run it. 
+
+I used "g++ -o lab cs420lab3.cpp" to run this program
+
+Once the executable is runned, it will add to the cvs file test.csv, giving you the data of 50 different patterns consisting of 100 neurons each.
+You can use this cvs file to view all the stable and none stable patterns throughout the network.
+1 = stable
+0 = not stable
+You may need to create a csv file named "test.csv" in the same file as the one containing the c++ program

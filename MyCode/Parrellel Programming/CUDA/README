@@ -1,0 +1,10 @@
+To use PA5, first create an input file containing only numbers.
+The first number is the amount of numbers you want to find the average between.
+This number is not counted in the mean and variance, and should be an int
+Next, provide a list of numbers (floats) seperated with spaces. Make sure you have the same amount
+of numbers as your count.
+This program does have a limit, and to increase the limit, you will have to change
+N - the amount of blocks (Max ~65000)
+T - threads per block (Max 1024)
+1024 N 1024 T is recommended for anything up to 1 million.
+After inputing the count and array into the program, it will return with the average and the variance of the array.
